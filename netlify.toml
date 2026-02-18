@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
+
+# Enable Netlify Identity for CMS login
+[build.environment]
+  NETLIFY_USE_YARN = "false"
